@@ -6,14 +6,6 @@ import api from "./services/api";
 
 function App() {
 
-  // const repository = {
-  //   id,
-  //   title,
-  //   url,
-  //   techs,
-  //   likes: 0,
-  // };
-
   const [repositories, setRepositories] = useState([]);
 
   useEffect(() => {
